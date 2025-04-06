@@ -32,7 +32,7 @@ st.pydeck_chart(pdk.Deck(
             data=events,
             get_position="[Longitude, Latitude]",
             get_color="[200, 30, 0, 160]",
-            get_radius=50,
+            get_radius=20,
         ),
     ],
 ))

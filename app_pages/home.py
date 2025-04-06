@@ -25,7 +25,7 @@ with col1:
     st.image("images/vivere.jpeg", use_container_width=True)
     st.markdown(
         """
-        <div style="text-align: center; margin-top: 20px;">
+        <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
             <a href="https://riqualificato-green-digital-futures.streamlit.app/barriera_da_vivere" class="red-button" style="display: inline-block; padding: 20px 20px; text-decoration: none; color: white;">Barriera da Vivere</a>
         </div>
         """,
@@ -36,7 +36,7 @@ with col2:
     st.image("images/migliorare.jpeg", use_container_width=True)
     st.markdown(
         """
-        <div style="text-align: center; margin-top: 20px;">
+        <div style="text-align: center; margin-top: 20px; margin-top: 20px;">
             <a href="https://riqualificato-green-digital-futures.streamlit.app/barriera_da_migliorare" class="red-button" style="display: inline-block; padding: 20px 20px; text-decoration: none; color: white;">Barriera da Migliorare</a>
         </div>
         """,

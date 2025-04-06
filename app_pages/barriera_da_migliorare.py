@@ -16,7 +16,7 @@ st.title("Barriera da Migliorare")
 
 # Map visualization
 st.subheader("🗺️ 1. Mappa dei Problemi")
-st.write("Ecco tutti gli eventi nella tua zona:")
+st.write("Ecco cosa hanno segnalato i cittadini:")
 st.write()
 st.pydeck_chart(pdk.Deck(
     map_style="mapbox://styles/mapbox/streets-v11",

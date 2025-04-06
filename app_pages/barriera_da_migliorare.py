@@ -21,9 +21,9 @@ st.write()
 st.pydeck_chart(pdk.Deck(
     map_style="mapbox://styles/mapbox/streets-v11",
     initial_view_state=pdk.ViewState(
-        latitude=45.0424,
-        longitude=7.6932,
-        zoom=12,
+        latitude=45.0920,
+        longitude=7.6950,
+        zoom=45,
         pitch=50,
     ),
     layers=[

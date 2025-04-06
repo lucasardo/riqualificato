@@ -21,6 +21,7 @@ query = st.text_input("Chiedimi qualunque informazione sugli eventi nel tuo quar
 
 # Display events matching the query
 if query:
+    query = query.strip()
     filtered_events = events[events["Categoria"].str.contains(query, case=False)]
     if not filtered_events.empty:
         st.write("Ecco gli eventi più interessanti per te:")
